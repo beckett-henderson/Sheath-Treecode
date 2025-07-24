@@ -32,21 +32,21 @@ With dimensionless variables:
 
 ## 🧪 Governing Equations
 
-- **Kinematics:** $\frac{dx'}{dt'} = v'$
-- **Dynamics:**  $\frac{dv'}{dt'} = E'$
-- **Poisson Equation:**  $\frac{∂^2 \phi'}{∂x'^2} = -ρ'$
+- **Kinematics:**  dx'/dt' = v'
+- **Dynamics:**  dv'/dt' = E'
+- **Poisson Equation:**  ∂²φ'/∂x'² = -ρ'
 - **Leapfrog Updates:**
-  - $v'_{n+1} = v'_n + E'(x') Δt'$
-  - $x'_{n+1} = x'_n + v'_{n+1} Δt'$
+  - v'ₙ₊₁ = v'ₙ + E'(x') * Δt'
+  - x'ₙ₊₁ = x'ₙ + v'ₙ₊₁ * Δt'
 - **Dirichlet Green's Function:**
-  - $G(x', x'_p) = \begin{cases}
-      x'(1 - x'_p), & \text{if } x' < x'_p \\
-      x'_p(1 - x'), & \text{otherwise}
-    \end{cases}$
+  - If x' < x'_p:
+      G(x', x'_p) = x' * (1 - x'_p)
+    Else:
+      G(x', x'_p) = x'_p * (1 - x')
 - **Boundary Image Charge Terms:**
-  - $A' = \sum q'_i G_{\text{left}}(x'_i)$  
-  - $B' = \sum q'_i G_{\text{right}}(x'_i)$  
-
+  - A' = Σ q'_i * G_left(x'_i)
+  - B' = Σ q'_i * G_right(x'_i)
+ 
 ---
 
 ## ⚙️ Features

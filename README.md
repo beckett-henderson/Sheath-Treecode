@@ -16,10 +16,10 @@ This project simulates a **1D plasma sheath** with **immobile ions** and **mobil
 
 The simulation is fully non-dimensionalized using the following reference scales:
 
-- **Length scale:**                $L = \lambda_D$ (Debye length)  
-- **Thermal velocity:**      $v_{th}$  
-- **Time scale:**                  $T = L / v_{th}$  
-- **Potential scale:**             $\phi_0 = \frac{m_e v_{th}^2}{q_0}$
+- **Length scale:**            L   = λ_D        (Debye length)      
+- **Thermal velocity:**        v_th             (electron thermal velocity)  
+- **Time scale:**              T   = L / v_th 
+- **Potential scale:**         φ₀  = mₑ v_th² / q₀
 
 With dimensionless variables:
 - $x' = \frac{x}{L}$  

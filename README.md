@@ -96,4 +96,38 @@ python 1D_Sheath_Treecode.py --N_ion 500 --N_electron 800 --steps 1500 --output 
 | `alpha`      | 200.0  | Boundary correction decay rate |
 | `output`     | \*.mp4 | Animation file name            |
 
+### 📁 Files Included
+- 1D_Sheath_Treecode.py -- main simulation driver
+- README.md -- project overview and usage instructions
+- *.png -- optional output snapshots (generated during runtime)
+- *.mp4 -- animation of sheath formation
 
+## 📚 References
+- **Christlieb, A.J., Krasny, R., & Verboncouer, J.P. (2004)**
+  *Efficient particle Simulation of a virtual cathode using a grid-free treecode Poisson solver*
+  *IEEE transactions on Plasma Science,* Vol. 32, No. 2
+  🔗 ieeexplore.ieee.org/document/1308480
+- **Christlieb, A.J., Krasny, R., Verboncouer, J.P., Emhoff, J.W., Boyd, I.D. (2006)**
+  *Grid-free plasma Simulation techniques*
+  *IEEE Transactions on Plasma Science,* Vol. 34, No. 2
+  🔗 ieeexplore.ieee.org/document/1621283
+- **Causley, M., Christlieb, A., Güçlü, Y., Wolf, E. (2013)**
+  *Method of lines transpose: A fast implicit wave propagator*
+- **Christlieb, Andrew J., Sands, William A., White, Stephen R. (2025)**
+  *A Particle-in-Cell Method for Plasmas with a Generalized Momentum Formulation, Part I: Model   Formulation*
+  *Journal of Scientific Computing,* Vol. 103, No. 15
+  🔗 link.springer.com/article/10.1007/s10915-025-02824-1
+
+## 💡Future Additions
+
+## 🌐 License
+This project is available for academic and educational use.
+If you use this code in your research or work, please credit the author.
+---
+### ☑️ To use it:
+1. Open a terminal in your repo folder.
+2. Create the file:
+   ```bash
+   notepad README.md
+   ```
+3. Paste the content and save.

@@ -64,7 +64,7 @@ With dimensionless variables:
 ### 🔧 Install Dependencies
 
 ```bash
-pip install numpy matplotlib imageio tqdm
+pip install numpy matplotlib imageio argparse tqdm
 ```
 
 ### ▶️ Run the Simulation

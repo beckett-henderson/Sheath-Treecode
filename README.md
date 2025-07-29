@@ -78,7 +78,7 @@ python 1D_Sheath_Treecode.py --N_ion 500 --N_electron 800 --steps 1500 --output 
 ```
 
 ### 📊 Example Output
-- **MP4 Animation (Click to view)::**
+- **MP4 Animation (Click to view):**
   * [Watch on Github](https://github.com/beckett-henderson/Sheath-Treecode/blob/db65b8fbb0cadd86926fab1e5c273fcf6567b079/1D%20Sheath%20Simulation.mp4)
 - **Snapshot Example:**
   * <img src ="sheath_snapshot_3s.png" width="400">
